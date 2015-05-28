@@ -11,6 +11,39 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css">
+
+<style>
+  html * {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  body {
+    background-color: #f7f7f9;
+  }
+
+  .note {
+    background-color: #fff;
+    border: 1px solid #e1e1e8;
+    margin-top: 15px;
+  }
+
+  .header {
+    border-bottom: 1px solid #e1e1e8;
+    padding: 15px;
+  }
+  .header img.logo {
+    height: 40px;
+  }
+
+  .content {
+    padding: 45px;
+  }
+  .content p {
+    margin-bottom: 30px;
+  }
+</style>
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -19,20 +52,29 @@
     <![endif]-->
 </head>
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <h1 class="text-center">Programmers Wanted</h1>
-      <div class="well">
-        <p>
-        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-        </p>
-        <p class="text-center">
-        <a class="btn btn-info" href="mailto:careers@staq.com" role="button">Email us your resume or URLs!</a>
-        </p>
+  <div class="container">
+    <div class="row">
+      <div class="note col-md-8 col-md-offset-2">
+        <div class="row">
+          <div class="header col-md-12">
+            <img class="logo" src="https://adstaq-assets.s3.amazonaws.com/account-logos/STAQ.png" alt="STAQ"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="title col-md-12 text-center">
+            <h1>Programmers Wanted</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="content col-md-12">
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <p class="text-center">
+              <a class="btn btn-success" href="mailto:careers@staq.com" role="button">Email us your resume or URLs!</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </body>
 </html>
